@@ -1,0 +1,63 @@
+/* ***********REGLAGES GENERAUX******************* */
+
+@font-face {
+  font-family: "Elegance" ;
+  src: url(./police/Urban\ Elegance\ Regular.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Elegance", serif;
+}
+body {
+  min-height: 100vh;
+  background: rgb(215, 209, 209);
+
+}
+
+/* **************h1********************** */
+
+h1{
+  text-align: center;
+  margin: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
+  text-decoration-color:  #eee ;
+
+}
+
+/* *********************TABLEAU*************************** */
+
+table {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 500;
+  border-collapse: separate; /* Changez de collapse à separate */
+  border-spacing: 10px;
+  min-width: 400px;
+  width: auto;
+  box-shadow: 0 5px 50px rgba(0,0,0, 0.15); 
+  border: 1px solid rgb(20, 19, 19);
+}
+thead, th {
+  background: rgb(66, 61, 61);
+  color: white;
+  text-align-last: left;
+  letter-spacing: 1.2px;
+  font-size: 1.2rem;
+}
+tbody, tr, td, th {
+  border: 1px solid rgb(20, 19, 19);
+  letter-spacing: 1px;
+}
+tbody {
+  text-align: center;
+}
+th, td {
+  padding: 15px 20px;
+}
